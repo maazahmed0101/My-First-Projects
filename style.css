@@ -1,0 +1,35 @@
+*{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+p::first-letter{
+color: red;
+font-size: 26px;
+}
+.ok {
+    text-decoration: none;
+    color: blue;
+  
+}
+p::first-line{
+color:blue;
+}
+.ok:visited:hover{
+    color: red;
+}
+.no::first-line{
+word-spacing: 2px;
+}
+.pk{
+    text-decoration: none;
+    color: blue;
+}
+.pk:hover{
+color: red;
+}
+.last{
+    text-align: center;
+}

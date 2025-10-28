@@ -1,0 +1,44 @@
+*{
+text-transform: capitalize;
+
+}
+h1{
+    color: orange;
+    text-shadow: 2px 2px 7px black;
+    text-align: center;
+    font-size: 65px;
+}
+.great{
+    display: flex
+    flex-direction : row ;
+   word-spacing : 300px ;
+   text-align:center
+}
+.scroll{
+    display: inline-block;
+    white-space: norap;
+    animation: scroll 10s linear infinite;
+    padding-right: 100%;
+  width: 100vh;
+  overflow: hidden;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(-100);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.scroll{at
+    color: blue;
+    font-size: 40px;
+    background-color: yellow;
+}
+body{
+   background-image: url(maaz.jpg);
+   width: 300px;
+   height: 900px;
+   border-size:cover;
+background repeat:norepet ;
+}
